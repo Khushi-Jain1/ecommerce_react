@@ -1,0 +1,38 @@
+.left-sidebar h2,
+.right-sidebar h2 {
+  color: #fe980f;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 15px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.ant-menu-submenu-title {
+  font-weight: bold;
+  color: #767471;
+}
+
+h2.title {
+  color: #fe980f;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 15px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.clear-filter{
+  width: 80%;
+  margin: 10%;
+}
+
+.clear-filter:hover{
+  background-color: #fe980f;
+}
+
+.clear-filter:focus{
+  background-color: #fe980f;
+}

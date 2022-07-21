@@ -1,0 +1,26 @@
+.footer-bottom {
+  background: #d6d6d0;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.footer-bottom {
+  color: #363432;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.footer-bottom div span a {
+  margin: 10px;
+  color: #fe980f;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.pull-left {
+  float: left!important;
+}
+
+.pull-right {
+  float: right!important;
+}

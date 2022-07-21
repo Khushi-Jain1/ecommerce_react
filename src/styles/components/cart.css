@@ -1,0 +1,47 @@
+.table-footer {
+  padding-bottom: 20px!important;
+}
+
+.checkout-button {
+  float: right;
+  margin-top: 20px;
+}
+
+.coupon-card{
+  margin: 20px;
+  padding: 50px;
+}
+
+/* .coupon-form{
+  margin: 20px;
+  padding: 50px; 
+} */
+.bill{
+  margin: 20px;
+  /* padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  border: 1px solid #e6e4df;
+  margin: 20px; */
+}
+.bill-item{
+  background: #e6e4df;
+  padding: 5px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px ;
+  color: #999793;
+}
+
+.bill-item-left{
+  float: left;
+}
+
+.bill-item-right{
+  float: right;
+}
+
+.quantity-error{
+  color: red;
+}

@@ -1,0 +1,94 @@
+.product-image-wrapper {
+    border: 1px solid #f7f7f5;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .single-products {
+    position: relative;
+    height: 350px;
+  }
+  
+  .new,
+  .sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .productinfo h2 {
+    color: #fe980f;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .product-overlay h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .productinfo p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #696763;
+  }
+  
+  .productinfo img {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .productinfo {
+    position: relative;
+  }
+  
+  .product-overlay {
+    background: #fe980f;
+    top: 0;
+    display: none;
+    height: 0;
+    position: absolute;
+    transition: height 500ms ease 0s;
+    width: 100%;
+    display: block;
+    /* opacity:; */
+  }
+  
+  .single-products:hover .product-overlay {
+    display: block;
+    height: 100%;
+  }
+  
+  .product-overlay .overlay-content {
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .product-overlay .add-to-cart {
+    background: #fff;
+    border: 0 none;
+    border-radius: 0;
+    color: #fe980f;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .product-overlay .add-to-cart:hover {
+    background: #fff;
+    color: #fe980f;
+  }
+  
+  .product-overlay p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+  }
+  

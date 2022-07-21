@@ -1,0 +1,12 @@
+.mc-alert-sending{
+  color: blueviolet;
+}
+
+.mc-alert-error{
+  color: red;
+}
+
+.mc-alert-success{
+  color: green;
+}
+

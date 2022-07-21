@@ -1,0 +1,19 @@
+.card {
+  margin-bottom: 20px;
+}
+
+.my-orders {
+  margin: -24px!important;
+  margin-bottom: 20px!important;
+}
+
+.card-title {
+  background: #f0f0e9;
+  margin: 0;
+  padding: 20px;
+  color: darkgray;
+}
+
+.card-body{
+    padding: 0px;
+}

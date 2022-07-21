@@ -1,0 +1,28 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.leftBox{
+    padding: 120px 50px;
+
+}
+
+h1{
+    /* color: #fe980f; */
+    font-weight: lighter;
+}
+
+.get {
+    background: #fe980f;
+    border: 0 none;
+    border-radius: 0;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 23px;
+}
+
+.get:hover{
+    color: black;
+}

@@ -1,0 +1,73 @@
+.view-product {
+  position: relative;
+}
+
+.view-product img {
+  border: 2px solid #e2e2e2;
+  height: 380px;
+  width: 100%;
+}
+
+.product-information {
+  border: 2px solid #e2e2e2;
+  overflow: hidden;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.product-information h2 {
+  color: #363432;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.product-information p {
+  color: #696763;
+  font-family: "Roboto", sans-serif;
+}
+
+.product-information .price {
+  color: #fe980f;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-top: 0px; 
+}
+.product-information span input {
+  border: 1px solid #dededc;
+  color: #696763;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  height: 33px;
+  text-align: center;
+} 
+
+.product-information span label {
+  color: #696763;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+
+.get {
+  font-family: "Roboto", sans-serif;
+  margin: 10px;
+  margin-left: 30px;
+  background: #fe980f;
+}
+
+.get:hover {
+  color: black;
+  background: #fe980f;
+}
+
+.get:focus{
+  background: #fe980f;
+}
